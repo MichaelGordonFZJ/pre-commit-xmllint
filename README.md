@@ -17,8 +17,8 @@ Create or add following to .pre-commit-config.yaml in repository you would like 
 
 ```yaml
 repos:
-  - repo: https://github.com/lsst-ts/pre-commit-xmllint
-    rev: v1.0.0
+  - repo: https://github.com/MichaelGordonFZJ/pre-commit-xmllint
+    rev: v1.0.1
     hooks:
       - id: format-xmllint
 ```
