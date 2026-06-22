@@ -1,5 +1,8 @@
 #!/bin/sh
 
+## enable tab as seperator
+export XMLLINT_INDENT=$'\t'
+
 XMLLINT=xmllint
 
 if [ -t 1 ]; then
