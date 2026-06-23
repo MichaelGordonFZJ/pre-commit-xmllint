@@ -1,7 +1,7 @@
 #!/bin/sh
 
 ## enable tab as seperator
-export XMLLINT_INDENT=$'\t'
+export XMLLINT_INDENT=$(printf '\t')
 
 XMLLINT=xmllint
 
